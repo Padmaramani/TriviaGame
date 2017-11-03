@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <!-- Added link to the  style sheet -->
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body background="image/recycled_texture_background.jpg">
+
+    <div class="container" "container01">
+    <div class="row">
+        <div class="col-lg-12">
+        <h1 id="mainHeader"><center>Welcome to the Quiz game</center></h1>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4">
+         <h1></h1>
+    </div>
+    <div class="col-lg-4">
+        <button id="startGame" class="btn btn-primary btn-sm">
+         <h1 id="buttonText"><center>START GAME</center></h1>
+        </button>
+    </div>
+    <div class="col-lg-4">
+            <h1></h1>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-12">   
+      <h4 id="explntext"><center>You have 1 minute to answer 10 questions</center></h4>     
+    </div>
+    </div>
+    </div>
+
+    <div class="container" "container02" id="secondContainer">
+        
+        <div class="row" id="repeatnodeq0">
+            <div class="col-lg-12">
+                <h4>
+                    <span id=questionLine0>
+                    <span>
+                </h4>
+            </div>
+        </div>
+    <div class="row" id="repeatnodea0">
+    <div class="col-lg-12">            
+    <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio0" value="incorrect" id="rad00" style="display:none">
+            <span id="radio00">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio0" value="incorrect" id="rad10" style="display:none">
+            <span id="radio10">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio0" value="incorrect" id="rad20" style="display:none">
+            <span id="radio20">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio0" value="correct" id="rad30" style="display:none">
+            <span id="radio30">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq1">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine1>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea1">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio1" value="incorrect" id="rad01" style="display:none">
+            <span id="radio01">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio1" value="incorrect" id="rad11" style="display:none">
+            <span id="radio11">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio1" value="correct" id="rad021" style="display:none">
+            <span id="radio21">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio1" value="incorrect" id="rad31"  style="display:none">
+            <span id="radio31">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq2">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine2>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea2">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio2" value="correct" id="rad02" style="display:none">
+            <span id="radio02">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio2" value="incorrect" id="rad12" style="display:none">
+            <span id="radio12">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio2" value="incorrect" id="rad22" style="display:none">
+            <span id="radio22">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio2" value="incorrect" id="rad32" style="display:none">
+            <span id="radio32">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq3">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine3>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea3">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio3" value="incorrect"  id="rad03" style="display:none">
+            <span id="radio03">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio3" value="correct"  id="rad13" style="display:none">
+            <span id="radio13">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio3" value="incorrect"  id="rad23" style="display:none">
+            <span id="radio23">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio3" value="incorrect"  id="rad33" style="display:none">
+            <span id="radio33">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq4">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine4>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea4">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio4" value="incorrect"  id="rad04" style="display:none" >
+            <span id="radio04">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio4" value="incorrect"  id="rad14" style="display:none">
+            <span id="radio14">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio4" value="incorrect"  id="rad24" style="display:none">
+            <span id="radio24">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio4" value="correct"  id="rad34" style="display:none">
+            <span id="radio34">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq5">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine5>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea5">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio5" value="incorrect"  id="rad05" style="display:none">
+            <span id="radio05">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio5" value="incorrect"  id="rad15" style="display:none">
+            <span id="radio15">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio5" value="correct"  id="rad25" style="display:none">
+            <span id="radio25">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio5" value="incorrect"  id="rad35" style="display:none">
+            <span id="radio35">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq6">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine6>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea6">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio6" value="incorrect"  id="rad06" style="display:none">
+            <span id="radio06">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio6" value="incorrect"  id="rad16" style="display:none">
+            <span id="radio16">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio6" value="correct"  id="rad26" style="display:none">
+            <span id="radio26">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio6" value="incorrect"  id="rad36" style="display:none">
+            <span id="radio36">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq7">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine7>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea7">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio7" value="correct"  id="rad07" style="display:none">
+            <span id="radio07">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio7" value="incorrect"  id="rad17" style="display:none">
+            <span id="radio17">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio7" value="incorrect"  id="rad27" style="display:none">
+            <span id="radio27">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio7" value="incorrect"  id="rad37" style="display:none">
+            <span id="radio37">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq8">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine8>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea8">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio8" value="incorrect"  id="rad08" style="display:none">
+            <span id="radio08">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio8" value="correct"  id="rad18" style="display:none">
+            <span id="radio18">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio8" value="incorrect"  id="rad28" style="display:none">
+            <span id="radio28">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio8" value="incorrect"  id="rad38" style="display:none">
+            <span id="radio38">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div class="row" id="repeatnodeq9">
+        <div class="col-lg-12">
+            <h4>
+                <span id=questionLine9>
+                    <span>
+            </h4>
+        </div>
+    </div>
+    
+    <div class="row" id="repeatnodea9">
+            <div class="col-lg-12">
+        <form>
+        <label class="radio-inline">
+            <input type="radio" name="optradio9" value="incorrect"  id="rad09" style="display:none">
+            <span id="radio09">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio9" value="incorrect"  id="rad19" style="display:none">
+            <span id="radio19">
+                <span> 
+        </label>
+        <label class="radio-inline"> 
+            <input type="radio" name="optradio9" value="incorrect"  id="rad29" style="display:none">
+            <span id="radio29">
+                <span>
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="optradio9" value="correct"  id="rad39" style="display:none">
+            <span id="radio39">
+                <span>
+        </label>
+    </form>
+    </div>
+    </div>
+    
+
+    <button id="submitAnswers" class="btn btn-primary btn-sm" hidden="hidden">
+            <h1>SUBMIT</h1>
+        </button>
+    
+
+
+    </div>
+<div class="container" "container03" id="thirdContainer">
+    <div class="row">
+        <div class="col-lg-12">
+        <h4><span id="correctCount" style="display:none"><span></h4>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-lg-12">
+                    <h4><span id="incorrectCount" style="display:none"><span></h4>
+                    </div>
+    </div>
+    <div class="col-lg-12">
+            <button id="playAgain" class="btn btn-primary btn-sm" style="display:none">
+             <h1 id="buttonText" ><center>PLAY AGAIN</center></h1>
+            </button>
+        </div>
+
+    </div>
+
+    </div>
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     
+<!-- Script -->
+<script type="text/javascript" src="JavaScript/triviajs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+
+
+#questionLine0,#questionLine1,#questionLine2 ,#questionLine3 ,#questionLine4 ,#questionLine5 ,
+#questionLine6 ,#questionLine7 ,#questionLine8,#questionLine9  
+ {
+
+    color:white;
+    text-align: left;
+    font-family: Courier New;
+
+}
+
+
+#radio00,#radio10,#radio20,#radio30,#radio01,#radio11,#radio21,#radio31,#radio02,#radio12,#radio22,#radio32,#radio03,
+#radio13,#radio23,#radio33,
+#radio04,#radio14,#radio24,#radio34,#radio05,#radio15,#radio25,#radio35,#radio06,#radio16,#radio26,
+#radio36,#radio07,#radio17,#radio27,#radio37,
+#radio08,#radio18,#radio28,#radio38,#radio09,#radio19,#radio29,#radio39
+{
+        color:white;
+        text-align: left;
+        font-family: Courier New;
+    
+    }
+
+#mainHeader,#explntext,#thirdContainer,#timerrow
+{
+    color:white;
+    text-align: center;
+    font-family: Courier New;
+    height: 200px;
+
+}
+
+#timerrow
+{
+    color:white;
+    text-align: center;
+    font-family: Courier New;
+    height: 75px;
+
+}
+
+#secondContainer
+{
+    text-align: center;
+}
