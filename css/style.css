@@ -23,7 +23,7 @@
     
     }
 
-#mainHeader,#explntext,#thirdContainer,#timerrow
+#mainHeader,#explntext,#thirdContainer,#countdown
 {
     color:white;
     text-align: center;
@@ -31,6 +31,17 @@
     height: 200px;
 
 }
+
+#countdown
+{
+    color:white;
+    text-align: center;
+    font-family: Courier New;
+    height: 150px;
+
+}
+
+
 
 #timerrow
 {
